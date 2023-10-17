@@ -48,14 +48,6 @@ public class ExecuteQuery01 {
         }
 
 
-
-
-
-
-
-
-
-
         st.close();
         con.close();
 
