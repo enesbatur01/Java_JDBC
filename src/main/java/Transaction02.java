@@ -25,9 +25,6 @@ public class Transaction02 {
             prst.setInt(2,1234);
             prst.executeUpdate(); //commit edilene kadar değişiklik kalıcı hale gelmez
 
-            if (false){
-                throw new Exception();
-            }
 
             //2-para transferi alan
             prst.setInt(1,1000);
